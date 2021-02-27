@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/fa20-p05-g02/databases/fa20-p05-g02",
+      "type": "mssql.azure",
+      "connectionId": "DataContext",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
